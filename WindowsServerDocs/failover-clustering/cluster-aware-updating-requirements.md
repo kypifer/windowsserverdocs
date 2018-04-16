@@ -39,7 +39,7 @@ The following administrator requirements are necessary to use CAU features.
   
 -   If you use CAU in remote\-updating mode when you are signed in with an account that doesn't have local administrator rights and permissions on the cluster nodes, you must run the CAU tools as an administrator by using a local administrator account on the Update Coordinator computer, or by using an account that has the **Impersonate a client after authentication** user right. 
   
--   To run the CAU Best Practices Analyzer, you must use an account that has administrative privileges on the cluster nodes and local administrative privileges on the computer that is used to run the [Test-CauSetup](https://technet.microsoft.com/itpro/powershell/windows/cluster-aware-updating/test-causetup) cmdlet or to analyze cluster updating readiness using the Cluster-Aware Updating window. For more information, see [Test cluster updating readiness](#BKMK_BPA).  
+-   To run the CAU Best Practices Analyzer, you must use an account that has administrative privileges on the cluster nodes and local administrative privileges on the computer that is used to run the [Test-CauSetup](https://docs.microsoft.com/en-us/powershell/module/clusterawareupdating/test-causetup?view=win10-ps) cmdlet or to analyze cluster updating readiness using the Cluster-Aware Updating window. For more information, see [Test cluster updating readiness](#BKMK_BPA).  
   
 ## Verify the cluster configuration  
 The following are general requirements for a failover cluster to support updates by using CAU. Additional configuration requirements for remote management on the nodes are listed in [Configure the nodes for remote management](#BKMK_NODE_CONFIG) later in this topic.  
